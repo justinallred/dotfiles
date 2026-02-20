@@ -36,6 +36,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# Load additional aliases                                                                                                                                                                                       
+[[ -f ~/dotfiles/.bash_aliases ]] && source ~/dotfiles/.bash_aliases          
+
 # ── Editor ───────────────────────────────────────────────
 export EDITOR=code
 export GIT_EDITOR="code --wait"
